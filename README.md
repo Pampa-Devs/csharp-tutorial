@@ -69,8 +69,8 @@ Sequência de teste: 5, 10, 15
 
 Dado a sequência de teste acima:
 
-* Ao entrar com um número igual a 2, teremos: 5, 10, 15**, 2**
-* Ao utilizar o comando `DUP`: 5, 10, 15**, 15**
+* Ao entrar com um número igual a 2, teremos: 5, 10, 15 **, 2**
+* Ao utilizar o comando `DUP`: 5, 10, 15 **, 15**
 * Ao utilizar o comando `POP`: 5, 10
 * Ao utilizar o comando `INV`: **15, 10, 5**
 * Ao utilizar o comando `+`: 5, **25**
