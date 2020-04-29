@@ -1,6 +1,6 @@
 # Repositório em construção!
 
-# C# - Introdução ao C# 
+# .NET - Introdução ao C# 
 *Este artigo foi escrito em abril de 2020*
 
 ## O que é C#?
