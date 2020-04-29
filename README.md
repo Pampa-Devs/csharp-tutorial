@@ -103,16 +103,17 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 
 ### Desenvolvimento
 
-02. [Desenvolvimento Dirigido a Testes]()
-03. [Máquina de Operações]()
-04. [Pilha de Operações]()
-05. [Comando `PUSH`]()
-06. [Comando `POP`]()
-07. [Comando `INV`]()
-08. [Comando `+`]()
-09. [Comando `-`]()
-10. [Comando `PTR`]()
-11. [Comando `CLS`]()
+02. [Criando o Projeto](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/2.create-project.md)
+03. [Desenvolvimento Dirigido a Testes]()
+04. [Máquina de Operações]()
+05. [Pilha de Operações]()
+06. [Comando `PUSH`]()
+07. [Comando `POP`]()
+08. [Comando `INV`]()
+09. [Comando `+`]()
+10. [Comando `-`]()
+11. [Comando `PTR`]()
+12. [Comando `CLS`]()
 
 
 ## Referências
