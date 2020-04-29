@@ -99,7 +99,7 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 
 ### Configuração de Ambiente
 
-01. [Instalando e configurando o **Visual Studio Community**]()
+01. [Instalando e configurando o **Visual Studio**](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/ambient/1.installing_vs.md)
 
 ### Desenvolvimento
 
