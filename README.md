@@ -1,5 +1,9 @@
 # Repositório em construção!
 
+<p align="center">
+     <img src="/images/csharp_logo.png" alt="C#" width="250px" />
+</p>
+
 # .NET - Introdução ao C# 
 *Este artigo foi escrito em abril de 2020*
 
