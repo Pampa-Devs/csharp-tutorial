@@ -45,10 +45,11 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 * https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/
 * https://www.udemy.com/pt/topic/c-sharp/free/
 
-## Iniciando em C#
+## Mão na Massa - Problema
 
-Então pessoal, neste tutorial, faremos uma aplicação que armazena operações em uma Stack do início ao fim. Poderemos entrar com diversos comandos e para cada um irá ser realizada uma ação
+Então pessoal, neste tutorial, faremos uma aplicação que armazena operações em uma **Pilha** do início ao fim. Poderemos entrar com diversos comandos e para cada um irá ser realizada uma ação
 em particular.
+
 
 ### Comandos
 
@@ -63,23 +64,33 @@ em particular.
 
 ### Exemplos
 
-Sequência de teste: 5, 10, 15
+Entrada: "3 DUP 5 - -"
+Resultado: -1
 
-<br>
+Entrada: "13 DUP 4 POP 5 DUP + DUP + -"
+Resultado: 7
 
-Dado a sequência de teste acima:
+Entrada: "5 6 + -"
+Resultado: -1
 
-* Ao entrar com um número igual a 2, teremos: 5, 10, 15 **, 2**
-* Ao utilizar o comando `DUP`: 5, 10, 15 **, 15**
-* Ao utilizar o comando `POP`: 5, 10
-* Ao utilizar o comando `INV`: **15, 10, 5**
-* Ao utilizar o comando `+`: 5, **25**
-* Ao utilizar o comando `-`: 5, **5**
+## Mão na Massa - Tutorial
 
 ### Configuração de Ambiente
 
-Antes de mais nada, precisamos ter as ferramentas que vamos utilizar para desenvolver em C# não é?
+01. [Instalando e configurando o **Visual Studio Community**]()
 
+### Desenvolvimento
+
+02. [Desenvolvimento Dirigido a Testes]()
+03. [Implementação Máquina de Operações]()
+04. [Implementando Pilha de Operações]()
+05. [Implementação Comando `PUSH`]()
+06. [Implementação Comando `POP`]()
+07. [Implementação Comando `INV`]()
+08. [Implementação Comando `+`]()
+09. [Implementação Comando `-`]()
+10. [Implementação Comando `PTR`]()
+11. [Implementação Comando `CLS`]()
 
 
 ## Referências
