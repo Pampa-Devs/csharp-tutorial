@@ -29,16 +29,16 @@ Com ele você pode desenvolver:
 * Video Games
 * E muito mais
 	
-### * Mercado
+### -> Mercado
 
 C# é uma das linguagens **mais utilizadas no mundo**, com uma breve busca no LinkedIn você encontra diversos empregos para quem trabalha com ela.
 Cada região tem um salário, mas profissionais experientes são **muito bem remunerados**.
 
-### * .NET Core
+### -> .NET Core
 
 O framework **.NET Core** da Microsoft permite desenvolvimento multiplataforma e é extremamente performático e modular
 
-### * Comunidade Gigantesca
+### -> Comunidade Gigantesca
 
 Você pode aprender C# em diversos lugares diferentes e de graça. Além desse tutorial, vou deixar mais alguns links para ajudar no seu estudo:
 * http://www.macoratti.net/08/08/c_bas1.htm
