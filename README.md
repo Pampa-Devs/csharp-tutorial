@@ -70,22 +70,26 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 * Comando que falhou
 * Hora da falha
 ```C#
-############ ERROR START
-`1 5 15 17 - POP | 04/28/2020`
-############ ERROR END
+============ ERROR START
+1 5 15 17 - POP | 04/28/2020
+============= ERROR END
 ```
 
 
 ### Exemplos de entradas e saídas
 
-Entrada: "3 DUP 5 - -"
-Resultado: -1
+**Entrada:** `3 DUP 5 - -` <br/>
+**Resultado:** -1
 
-Entrada: "13 DUP 4 POP 5 DUP + DUP + -"
-Resultado: 7
+<br/>
 
-Entrada: "5 6 + -"
-Resultado: -1
+**Entrada:** `13 DUP 4 POP 5 DUP + DUP + -` <br/>
+**Resultado:** 7
+
+<br/>
+
+**Entrada:** `5 6 + -` <br/>
+**Resultado:** -1
 
 ## Mão na Massa - Tutorial
 
