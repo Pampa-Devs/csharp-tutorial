@@ -16,7 +16,7 @@ de programação, como Object Pascal e, principalmente, Java.
 Não existe resposta certa para essa pergunta e cada pessoa provavelmente vai te dar uma resposta diferente se baseando em seu gosto e experiência. 
 Então pretendo te apresentar algumas coisas legais que o C# oferece que me fazem acreditar que ele é uma ótima linguagem para se iniciar.
 
-### * C# é Versátil
+### -> C# é Versátil
 
 Com ele você pode desenvolver:
 * Aplicações para Windows
