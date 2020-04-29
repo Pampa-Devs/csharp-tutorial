@@ -47,22 +47,36 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 
 ## Mão na Massa - Problema
 
-Então pessoal, neste tutorial, faremos uma aplicação que armazena operações em uma **Pilha** do início ao fim. Poderemos entrar com diversos comandos e para cada um irá ser realizada uma ação
+Então pessoal, neste tutorial, faremos uma aplicação que armazena operações em uma **pilha** do início ao fim. Poderemos entrar com diversos comandos e para cada um irá ser realizada uma ação
 em particular.
 
 
 ### Comandos
 
 * `[Number]` - Um número que varia de 0 a 2147483647, o mesmo não pode ser negativo.
-* `DUP` - Duplica o último item da Stack
-* `POP` - Remove o último item da Stack
-* `INV` - Inverte a Stack
-* `+` - Remove os dois últimos itens da Stack e adiciona a soma deles
-* `-` - Remove os dois últimso itens da Stack e adiciona a subtração do último pelo penúltimo
-* `PTR` - Exibe na tela todos as operações armazenados na stack
-* `CLS` - Limpa a tela
+* `DUP` - **Duplica** o último item da pilha
+* `POP` - **Remove** o último item da pilha
+* `INV` - **Inverte** a pilha
+* `+` - Soma os dois últimos itens da pilha, removendo o último
+* `-` - Subtrai os dois últimos itens da pilha, removendo o último
+* `PTR` - **Exibe** na tela todos as operações armazenados na stack
+* `CLS` - **Limpa** a tela
 
-### Exemplos
+### Casos de Erro
+
+Qualquer situação inesperada deve exibir uma mensagem de erro na tela informando:
+
+* Os números na pilha
+* Comando que falhou
+* Hora da falha
+```C#
+############ ERROR START
+`1 5 15 17 - POP | 04/28/2020`
+############ ERROR END
+```
+
+
+### Exemplos de entradas e saídas
 
 Entrada: "3 DUP 5 - -"
 Resultado: -1
