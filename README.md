@@ -82,15 +82,15 @@ Resultado: -1
 ### Desenvolvimento
 
 02. [Desenvolvimento Dirigido a Testes]()
-03. [Implementação Máquina de Operações]()
-04. [Implementando Pilha de Operações]()
-05. [Implementação Comando `PUSH`]()
-06. [Implementação Comando `POP`]()
-07. [Implementação Comando `INV`]()
-08. [Implementação Comando `+`]()
-09. [Implementação Comando `-`]()
-10. [Implementação Comando `PTR`]()
-11. [Implementação Comando `CLS`]()
+03. [Máquina de Operações]()
+04. [Pilha de Operações]()
+05. [Comando `PUSH`]()
+06. [Comando `POP`]()
+07. [Comando `INV`]()
+08. [Comando `+`]()
+09. [Comando `-`]()
+10. [Comando `PTR`]()
+11. [Comando `CLS`]()
 
 
 ## Referências
