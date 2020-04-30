@@ -111,8 +111,8 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 ### Desenvolvimento
 
 02. [Criando o Projeto](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/2.create-project.md)
-03. [Desenvolvimento Dirigido a Testes]()
-04. [Máquina de Operações]()
+03. [Desenvolvimento Dirigido a Testes](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/3.test-driven-development.md)
+04. [Máquina de Operações](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/4.operation-machine.md)
 05. [Pilha de Operações]()
 06. [Comando `PUSH`]()
 07. [Comando `POP`]()

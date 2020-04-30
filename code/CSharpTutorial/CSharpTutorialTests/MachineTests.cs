@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpTutorial;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
@@ -22,7 +23,7 @@ namespace CSharpTutorialTests
         {
             Machine machine = new Machine();
 
-            Assert.Throws<MachineException>(() => machine.EnterCommand("-5");)
+            Assert.Throws<MachineException>(() => machine.EnterCommand("-5"));
         }
 
         [Fact]
@@ -30,7 +31,7 @@ namespace CSharpTutorialTests
         {
             Machine machine = new Machine();
 
-            Assert.Throws<MachineException>(() => machine.EnterCommand("999");)
+            Assert.Throws<MachineException>(() => machine.EnterCommand("999"));
         }
 
         [Fact]
