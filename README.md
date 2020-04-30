@@ -51,20 +51,30 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 
 ## Mão na Massa - Problema
 
-Então pessoal, neste tutorial, faremos uma aplicação que armazena operações em uma **pilha** do início ao fim. Poderemos entrar com diversos comandos e para cada um irá ser realizada uma ação
-em particular.
+Então pessoal, neste tutorial, faremos uma aplicação que armazena números em uma **pilha**. 
+Nossa aplicação será feita em **CLI** (Command Line Interface), mais conhecido como console. Poderemos entrar com 
+diversos comandos e para cada comando irá ser realizada uma ação.
 
+### Comandos da aplicação
 
-### Comandos
-
-* `[Number]` - Um número que varia de 0 a 2147483647, o mesmo não pode ser negativo.
+* `Número` - Adiciona um número a pilha.
 * `DUP` - **Duplica** o último item da pilha
 * `POP` - **Remove** o último item da pilha
 * `INV` - **Inverte** a pilha
 * `+` - Soma os dois últimos itens da pilha, removendo o último
 * `-` - Subtrai os dois últimos itens da pilha, removendo o último
-* `PTR` - **Exibe** na tela todos as operações armazenados na stack
-* `CLS` - **Limpa** a tela
+* `PTR` - **Exibe** na tela todos os números armazenados na pilha
+* `CLS` - **Limpa** a tela do console
+
+### Regras
+
+* O tamanho máximo da pilha é de 10 números
+* O número não pode ser negativo
+* O número não pode ser maior que 999
+* Comando `DUP` deve retornar um erro caso a duplicação supere o tamanho máximo da pilha
+* Comando `POP` deve retornar um erro caso não tenha números para remover
+* Comando `INV` deve retornar um erro caso a pilha não tenha números
+* Comandos `+` e `-` devem retornar um erro caso o tamanho da pilha seja 1
 
 ### Casos de Erro
 
@@ -72,28 +82,58 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 
 * Os números na pilha
 * Comando que falhou
-* Hora da falha
+* Data e hora da falha
 ```C#
 ============ ERROR START
-1 5 15 17 - POP | 04/28/2020
+1 5 15 17 - POP | 04/28/2020 07:04:52
 ============= ERROR END
 ```
 
-
-### Exemplos de entradas e saídas
-
-**Entrada:** `3 DUP 5 - -` <br/>
-**Resultado:** -1
-
-<br/>
-
-**Entrada:** `13 DUP 4 POP 5 DUP + DUP + -` <br/>
-**Resultado:** 7
-
-<br/>
-
-**Entrada:** `5 6 + -` <br/>
-**Resultado:** -1
+### Exemplo aplicação funcionando:
+```
+Digite um comando: 13
+[13]
+Digite um comando: DUP
+[13, 13]
+Digite um comando: 4
+[13, 13, 4]
+Digite um comando: POP
+[13, 13]
+Digite um comando: 5
+[13, 13, 5]
+Digite um comando: DUP
+[13, 13, 5, 5]
+Digite um comando: +
+[13, 13, 10]
+Digite um comando: DUP
+[13, 13, 10, 10]
+Digite um comando: +
+[13, 13, 20]
+Digite um comando: -
+[13, 7]
+Digite um comando: INV
+[7, 13]
+```
+1. Comando digitado: `13`
+**Pilha:** [13]
+2. Comando digitado: `DUP`
+**Pilha:** [13, 13]
+3. Comando digitado: `4`
+**Pilha:** [13, 13, 4]
+4. Comando digitado: `POP`
+**Pilha:** [13, 13]
+5. Comando digitado: `5`
+**Pilha:** [13, 13, 5]
+6. Comando digitado: `DUP`
+**Pilha:** [13, 13, 5, 5]
+7. Comando digitado: `+`
+**Pilha:** [13, 13, 10]
+8. Comando digitado: `DUP`
+**Pilha:** [13, 13, 10, 10]
+9. Comando digitado: `+`
+**Pilha:** [13, 13, 20]
+10. Comando digitado: `-`
+**Pilha:** [13, 7]
 
 ## Mão na Massa - Tutorial
 
