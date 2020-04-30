@@ -89,7 +89,7 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 ============= ERROR END
 ```
 
-### Exemplo aplicação funcionando:
+### Exemplo da aplicação funcionando:
 
 1. Comando digitado: `13` 	-> **Pilha:** [13]
 2. Comando digitado: `DUP` 	-> **Pilha:** [13, 13]
