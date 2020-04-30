@@ -90,50 +90,17 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 ```
 
 ### Exemplo aplicação funcionando:
-```
-Digite um comando: 13
-[13]
-Digite um comando: DUP
-[13, 13]
-Digite um comando: 4
-[13, 13, 4]
-Digite um comando: POP
-[13, 13]
-Digite um comando: 5
-[13, 13, 5]
-Digite um comando: DUP
-[13, 13, 5, 5]
-Digite um comando: +
-[13, 13, 10]
-Digite um comando: DUP
-[13, 13, 10, 10]
-Digite um comando: +
-[13, 13, 20]
-Digite um comando: -
-[13, 7]
-Digite um comando: INV
-[7, 13]
-```
-1. Comando digitado: `13`
-**Pilha:** [13]
-2. Comando digitado: `DUP`
-**Pilha:** [13, 13]
-3. Comando digitado: `4`
-**Pilha:** [13, 13, 4]
-4. Comando digitado: `POP`
-**Pilha:** [13, 13]
-5. Comando digitado: `5`
-**Pilha:** [13, 13, 5]
-6. Comando digitado: `DUP`
-**Pilha:** [13, 13, 5, 5]
-7. Comando digitado: `+`
-**Pilha:** [13, 13, 10]
-8. Comando digitado: `DUP`
-**Pilha:** [13, 13, 10, 10]
-9. Comando digitado: `+`
-**Pilha:** [13, 13, 20]
-10. Comando digitado: `-`
-**Pilha:** [13, 7]
+
+1. Comando digitado: `13` 	-> **Pilha:** [13]
+2. Comando digitado: `DUP` 	-> **Pilha:** [13, 13]
+3. Comando digitado: `4` 	-> **Pilha:** [13, 13, 4]
+4. Comando digitado: `POP` 	-> **Pilha:** [13, 13]
+5. Comando digitado: `5` 	-> **Pilha:** [13, 13, 5]
+6. Comando digitado: `DUP` 	-> **Pilha:** [13, 13, 5, 5]
+7. Comando digitado: `+` 	-> **Pilha:** [13, 13, 10]
+8. Comando digitado: `DUP` 	-> **Pilha:** [13, 13, 10, 10]
+9. Comando digitado: `+` 	-> **Pilha:** [13, 13, 20]
+10. Comando digitado: `-` 	-> **Pilha:** [13, 7]
 
 ## Mão na Massa - Tutorial
 
