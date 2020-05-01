@@ -45,56 +45,56 @@ namespace CSharpTutorialTests
             });
         }
 
-        [Fact]
-        public void EntrarComando_QuandoDUP_DeveDuplicarUltimoItemPilha()
-        {
-            Maquina maquina = new Maquina();
+        //[Fact]
+        //public void EntrarComando_QuandoDUP_DeveDuplicarUltimoItemPilha()
+        //{
+        //    Maquina maquina = new Maquina();
 
-            maquina.EntrarComando("5");
-            maquina.EntrarComando("DUP");
+        //    maquina.EntrarComando("5");
+        //    maquina.EntrarComando("DUP");
 
-            Assert.Equal(5, maquina.TopoPilha());
-            Assert.Equal(2, maquina.TamanhoPilha());
-        }
+        //    Assert.Equal(5, maquina.TopoPilha());
+        //    Assert.Equal(2, maquina.TamanhoPilha());
+        //}
 
-        [Fact]
-        public void EntrarComando_QuandoDUP_EhPilhaVazia_DeveLancarErro()
-        {
-            Maquina maquina = new Maquina();
+        //[Fact]
+        //public void EntrarComando_QuandoDUP_EhPilhaVazia_DeveLancarErro()
+        //{
+        //    Maquina maquina = new Maquina();
 
-            Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("DUP"));
-        }
+        //    Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("DUP"));
+        //}
 
-        [Fact]
-        public void EntrarComando_QuandoDUP_EhPilhaCheia_DeveLancarErro()
-        {
-            Maquina maquina = new Maquina();
+        //[Fact]
+        //public void EntrarComando_QuandoDUP_EhPilhaCheia_DeveLancarErro()
+        //{
+        //    Maquina maquina = new Maquina();
 
-            for (int i = 0; i < 10; i++)
-            {
-                maquina.EntrarComando("5");
-            }
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        maquina.EntrarComando("5");
+        //    }
 
-            Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("DUP"));
-        }
+        //    Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("DUP"));
+        //}
 
-        [Fact]
-        public void EntrarComando_QuandoPOP_DeveRemoverUltimoItemPilha()
-        {
-            Maquina maquina = new Maquina();
+        //[Fact]
+        //public void EntrarComando_QuandoPOP_DeveRemoverUltimoItemPilha()
+        //{
+        //    Maquina maquina = new Maquina();
 
-            maquina.EntrarComando("5");
-            maquina.EntrarComando("POP");
+        //    maquina.EntrarComando("5");
+        //    maquina.EntrarComando("POP");
+            
+        //    Assert.Equal(0, maquina.TamanhoPilha());
+        //}
 
-            Assert.Equal(0, maquina.TamanhoPilha());
-        }
+        //[Fact]
+        //public void EntrarComando_QuandoPOP_EhPilhaVazia_DeveLancarErro()
+        //{
+        //    Maquina maquina = new Maquina();
 
-        [Fact]
-        public void EntrarComando_QuandoPOP_EhPilhaVazia_DeveLancarErro()
-        {
-            Maquina maquina = new Maquina();
-
-            Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("POP"));
-        }
+        //    Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("POP"));
+        //}
     }
 }
