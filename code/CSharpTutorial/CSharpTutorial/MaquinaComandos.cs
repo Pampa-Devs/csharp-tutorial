@@ -9,6 +9,7 @@ namespace CSharpTutorial
         {
             {  EMaquinaComandos.DUP, new ComandoDuplicar() },
             {  EMaquinaComandos.POP, new ComandoRemover() },
+            {  EMaquinaComandos.INV, new ComandoInverter() },
         };
     }
 }

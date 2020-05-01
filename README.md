@@ -74,7 +74,7 @@ diversos comandos e para cada comando irá ser realizada uma ação.
 * Comando `DUP` deve retornar um erro caso a pilha esteja vazia
 * Comando `DUP` deve retornar um erro caso a duplicação supere o tamanho máximo da pilha
 * Comando `POP` deve retornar um erro caso a pilha esteja vazia
-* Comando `INV` deve retornar um erro caso a pilha não tenha números
+* Comando `INV` deve retornar um erro caso a pilha esteja vazia
 * Comandos `+` e `-` devem retornar um erro caso o tamanho da pilha seja 1
 
 ### Casos de Erro
@@ -118,7 +118,7 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/6.comandos.md)
 07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/7.comando-dup.md)
 08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/8.comando-pop.md)
-09. [Implementação comando `INV`]()
+09. [Implementação comando `INV`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/9.comando-inv.md)
 12. [Implementação comando `PTR`]()
 13. [Implementação comando `CLS`]()
 10. [Implementação comando `+`]()

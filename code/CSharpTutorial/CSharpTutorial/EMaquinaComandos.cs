@@ -4,6 +4,7 @@
     {
         DUP,
         POP,
+        INV,
         MAIS,
         MENOS,
         PTR,
