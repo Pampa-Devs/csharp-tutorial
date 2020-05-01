@@ -115,7 +115,7 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 04. [Implementação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/4.implementation.md)
 05. [Adicionando números a pilha](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/5.add-number-to-stack.md)
 06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/6.commands.md)
-07. [Implementação comando `DUP`]()
+07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/7.dup-command.md)
 08. [Implementação comando `POP`]()
 09. [Implementação comando `INV`]()
 12. [Implementação comando `PTR`]()
@@ -131,5 +131,5 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 * http://www.macoratti.net/08/08/c_bas1.htm
 * https://www.c-sharpcorner.com/UploadFile/mahesh/what-can-C-Sharp-do-for-you/
 * http://gabsferreira.com/razoes-pra-c-ser-sua-primeira-linguagem-de-programacao/
-* 
+* https://gameprogrammingpatterns.com/
 
