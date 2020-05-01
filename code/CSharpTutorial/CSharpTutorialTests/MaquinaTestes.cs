@@ -85,7 +85,7 @@ namespace CSharpTutorialTests
 
             maquina.EntrarComando("5");
             maquina.EntrarComando("POP");
-            
+
             Assert.Equal(0, maquina.TamanhoPilha());
         }
 
