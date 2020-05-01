@@ -6,8 +6,6 @@
         POP,
         INV,
         MAIS,
-        MENOS,
-        PTR,
-        CLS
+        MENOS
     }
 }

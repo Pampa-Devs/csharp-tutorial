@@ -118,5 +118,51 @@ namespace CSharpTutorialTests
 
             Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("INV"));
         }
+
+        [Fact]
+        public void EntrarComando_QuandoMais_DeveSomarDoisUltimosItensPilha()
+        {
+            Maquina maquina = new Maquina();
+
+            maquina.EntrarComando("5");
+            maquina.EntrarComando("10");
+            maquina.EntrarComando("+");
+
+            Assert.Equal(15, maquina.TopoPilha());
+            Assert.Equal(1, maquina.TamanhoPilha());
+        }
+
+        [Fact]
+        public void EntrarComando_QuandoMenos_DeveSubtrairDoisUltimosItensPilha()
+        {
+            Maquina maquina = new Maquina();
+
+            maquina.EntrarComando("5");
+            maquina.EntrarComando("10");
+            maquina.EntrarComando("-");
+
+            Assert.Equal(5, maquina.TopoPilha());
+            Assert.Equal(1, maquina.TamanhoPilha());
+        }
+
+        [Fact]
+        public void EntrarComando_QuandoMais_EhFilaComTamanho1_DeveLancarErro()
+        {
+            Maquina maquina = new Maquina();
+
+            maquina.EntrarComando("5");
+
+            Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("+"));
+        }
+
+        [Fact]
+        public void EntrarComando_QuandoMenos_EhFilaComTamanho1_DeveLancarErro()
+        {
+            Maquina maquina = new Maquina();
+
+            maquina.EntrarComando("5");
+
+            Assert.Throws<MaquinaErro>(() => maquina.EntrarComando("-"));
+        }
     }
 }

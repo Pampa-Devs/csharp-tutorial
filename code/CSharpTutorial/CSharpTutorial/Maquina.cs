@@ -55,14 +55,9 @@ namespace CSharpTutorial
 
         private Comando TentarPegarComandoDoTexto(string texto)
         {
-            EMaquinaComandos comandos;
-
-            if(Enum.TryParse(texto, out comandos))
+            if(MaquinaComandos.ComandoNomes.ContainsKey(texto))
             {
-                if (_comandos.ContainsKey(comandos))
-                {
-                    return _comandos[comandos];
-                }
+                return _comandos[MaquinaComandos.ComandoNomes[texto]];
             }
 
             throw new MaquinaErro($"Comando '{texto}' não existe");           

@@ -20,7 +20,7 @@ de programação, como Object Pascal e, principalmente, Java.
 Não existe resposta certa para essa pergunta e cada pessoa provavelmente vai te dar uma resposta diferente se baseando em seu gosto e experiência. 
 Então pretendo te apresentar algumas coisas legais que o C# oferece que me fazem acreditar que ele é uma ótima linguagem para se iniciar.
 
-### -> C# é Versátil
+### C# é Versátil
 
 Com ele você pode desenvolver:
 * Aplicações para Windows
@@ -33,16 +33,16 @@ Com ele você pode desenvolver:
 * Video Games
 * E muito mais
 	
-### -> Mercado
+### Mercado
 
 C# é uma das linguagens **mais utilizadas no mundo**, com uma breve busca no LinkedIn você encontra diversos empregos para quem trabalha com ela.
 Cada região tem um salário, mas profissionais experientes são **muito bem remunerados**.
 
-### -> .NET Core
+### .NET Core
 
 O framework **.NET Core** da Microsoft permite desenvolvimento multiplataforma e é extremamente performático e modular
 
-### -> Comunidade Gigantesca
+### Comunidade Gigantesca
 
 Você pode aprender C# em diversos lugares diferentes e de graça. Além desse tutorial, vou deixar mais alguns links para ajudar no seu estudo:
 * http://www.macoratti.net/08/08/c_bas1.htm
@@ -119,10 +119,9 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/7.comando-dup.md)
 08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/8.comando-pop.md)
 09. [Implementação comando `INV`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/9.comando-inv.md)
+10. [Implementação comando `+` e `-`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/10.comando-mais-menos.md)
 12. [Implementação comando `PTR`]()
 13. [Implementação comando `CLS`]()
-10. [Implementação comando `+`]()
-11. [Implementação comando `-`]()
 
 
 
