@@ -71,8 +71,9 @@ diversos comandos e para cada comando irá ser realizada uma ação.
 * O tamanho máximo da pilha é de 10 números
 * O número a ser adicionado na pilha não pode ser negativo
 * O número a ser adicionado na pilha não pode ser maior que 999
+* Comando `DUP` deve retornar um erro caso a pilha esteja vazia
 * Comando `DUP` deve retornar um erro caso a duplicação supere o tamanho máximo da pilha
-* Comando `POP` deve retornar um erro caso não tenha números para remover
+* Comando `POP` deve retornar um erro caso a pilha esteja vazia
 * Comando `INV` deve retornar um erro caso a pilha não tenha números
 * Comandos `+` e `-` devem retornar um erro caso o tamanho da pilha seja 1
 
@@ -116,7 +117,7 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 05. [Adicionando números a pilha](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/5.add-number-to-stack.md)
 06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/6.commands.md)
 07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/7.dup-command.md)
-08. [Implementação comando `POP`]()
+08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/8.pop-command.md)
 09. [Implementação comando `INV`]()
 12. [Implementação comando `PTR`]()
 13. [Implementação comando `CLS`]()

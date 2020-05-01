@@ -12,7 +12,7 @@ namespace CSharpTutorialTests
 
             machine.EnterCommand("5");
 
-            Assert.Equal(5, machine.Top());
+            Assert.Equal(5, machine.StackTop());
         }
 
         [Fact]
@@ -43,6 +43,39 @@ namespace CSharpTutorialTests
                     machine.EnterCommand("5");
                 }
             });
+        }
+
+        [Fact]
+        public void EnterCommand_WhenDUP_ShouldDuplicate()
+        {
+            Machine machine = new Machine();
+
+            machine.EnterCommand("5");
+            machine.EnterCommand("DUP");
+
+            Assert.Equal(5, machine.StackTop());
+            Assert.Equal(2, machine.StackSize());
+        }
+
+        [Fact]
+        public void EnterCommand_WhenDUP_AndEmptyStack_ShouldThrowError()
+        {
+            Machine machine = new Machine();
+
+            Assert.Throws<MachineException>(() => machine.EnterCommand("DUP"));
+        }
+
+        [Fact]
+        public void EnterCommand_WhenDUP_AndStackFull_ShouldThrowError()
+        {
+            Machine machine = new Machine();
+
+            for (int i = 0; i < 10; i++)
+            {
+                machine.EnterCommand("5");
+            }
+
+            Assert.Throws<MachineException>(() => machine.EnterCommand("DUP"));
         }
     }
 }

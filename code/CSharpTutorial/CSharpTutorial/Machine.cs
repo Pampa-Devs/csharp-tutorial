@@ -6,7 +6,7 @@ namespace CSharpTutorial
 {
     public class Machine : IMachine
     {
-        private const int STACK_MAX_SIZE = 10;
+        public const int STACK_MAX_SIZE = 10;
 
         private readonly Stack<int> _stack;
         private readonly Dictionary<EMachineCommands, Command> _commands;
@@ -14,10 +14,7 @@ namespace CSharpTutorial
         public Machine()
         {
             _stack = new Stack<int>(STACK_MAX_SIZE);
-            _commands = new Dictionary<EMachineCommands, Command>()
-            {
-                {  EMachineCommands.DUP, new DuplicateCommand() }
-            };
+            _commands = MachineCommands.Commands;
         }
 
         public void EnterCommand(string text)
@@ -72,9 +69,14 @@ namespace CSharpTutorial
             throw new MachineException($"Command '{text}' not implemented");           
         }
 
-        public int Top()
+        public int StackTop()
         {
             return _stack.Peek();
+        }
+
+        public int StackSize()
+        {
+            return _stack.Count;
         }
     }
 }
