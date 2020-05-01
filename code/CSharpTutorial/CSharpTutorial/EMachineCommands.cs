@@ -7,7 +7,6 @@
         PLUS,
         MINUS,
         PTR,
-        CLS,
-        UNDO
+        CLS
     }
 }

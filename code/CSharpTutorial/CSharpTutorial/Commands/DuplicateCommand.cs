@@ -10,10 +10,5 @@ namespace CSharpTutorial.Commands
         {
             stack.Push(stack.Peek());
         }
-
-        public override void Undo(Stack<int> stack)
-        {
-            stack.Pop();
-        }
     }
 }

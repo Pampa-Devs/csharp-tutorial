@@ -114,13 +114,15 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 03. [Desenvolvimento Dirigido a Testes](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/3.test-driven-development.md)
 04. [Implementação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/4.implementation.md)
 05. [Adicionando números a pilha](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/5.add-number-to-stack.md)
-06. [Comando `PUSH`]()
-07. [Comando `POP`]()
-08. [Comando `INV`]()
-09. [Comando `+`]()
-10. [Comando `-`]()
-11. [Comando `PTR`]()
-12. [Comando `CLS`]()
+06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/6.commands.md)
+07. [Implementação comando `DUP`]()
+08. [Implementação comando `POP`]()
+09. [Implementação comando `INV`]()
+12. [Implementação comando `PTR`]()
+13. [Implementação comando `CLS`]()
+10. [Implementação comando `+`]()
+11. [Implementação comando `-`]()
+
 
 
 ## Referências
