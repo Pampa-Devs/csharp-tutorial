@@ -22,7 +22,6 @@ namespace CSharpTutorial
 
         public void EnterCommand(string text)
         {
-            return;
             int number;
 
             if (IsNumber(text, out number))
