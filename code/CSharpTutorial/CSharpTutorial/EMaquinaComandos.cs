@@ -1,11 +1,11 @@
 ﻿namespace CSharpTutorial
 {
-    public enum EMachineCommands
+    public enum EMaquinaComandos
     {
         DUP,
         POP,
-        PLUS,
-        MINUS,
+        MAIS,
+        MENOS,
         PTR,
         CLS
     }

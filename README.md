@@ -1,7 +1,7 @@
 # Repositório em construção!
 
 <p align="center">
-     <img src="/images/csharp_logo.png" alt="C#" width="250px" />
+     <img src="/imagens/csharp_logo.png" alt="C#" width="250px" />
 </p>
 
 # .NET - Introdução ao C# 
@@ -52,7 +52,7 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 ## Mão na Massa - Problema
 
 Então pessoal, neste tutorial, faremos uma aplicação que armazena números em uma **pilha**. 
-Nossa aplicação será feita em **CLI** (Command Line Interface), mais conhecido como console. Poderemos entrar com 
+Nossa aplicação será feita em **CLI** (Interface de Linha de Comando), mais conhecido como console. Poderemos entrar com 
 diversos comandos e para cada comando irá ser realizada uma ação.
 
 ### Comandos da aplicação
@@ -107,17 +107,17 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 
 ### Configuração de Ambiente
 
-01. [Instalando e configurando o **Visual Studio**](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/ambient/1.installing_vs.md)
+01. [Instalando e configurando o **Visual Studio**](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/ambiente/1.instalando_visual_studio.md)
 
 ### Desenvolvimento
 
-02. [Criando o Projeto](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/2.create-project.md)
-03. [Desenvolvimento Dirigido a Testes](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/3.test-driven-development.md)
-04. [Implementação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/4.implementation.md)
-05. [Adicionando números a pilha](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/5.add-number-to-stack.md)
-06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/6.commands.md)
-07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/7.dup-command.md)
-08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modules/tutorial/8.pop-command.md)
+02. [Criando o Projeto](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/2.criar-projeto.md)
+03. [Desenvolvimento Dirigido a Testes](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/3.desenvolvimento-dirigido-a-testes.md)
+04. [Implementação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/4.implementacao.md)
+05. [Adicionando números a pilha](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/5.adicionando-numeros-na-pilha.md)
+06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/6.comandos.md)
+07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/7.comando-dup.md)
+08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/8.comando-pop.md)
 09. [Implementação comando `INV`]()
 12. [Implementação comando `PTR`]()
 13. [Implementação comando `CLS`]()
