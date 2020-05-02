@@ -54,7 +54,7 @@ Então pessoal, neste tutorial, faremos uma aplicação que armazena números em
 Uma pilha é uma estrutura de dados do tipo **Último a entrar, Primeiro a sair** (LIFO, First In First Out em inglês). 
 
 <p align="center">
-     <img src="/imagens/pilha.png" alt="pilha" width="450px" />
+	<img src="/imagens/pilha.png" alt="pilha" width="450px" />
 </p>
 
 Por padrão, já temos um objeto no C# que simula esse comportamento, a **Stack**.
@@ -96,6 +96,10 @@ Numero deve estar entre 0 e 999
 ```
 
 ### Exemplo da aplicação funcionando:
+
+<p align="center">
+	<img src="/imagens/app.png" alt="app" width="450px" />
+</p>
 
 1. Comando digitado: `13` 	-> **Pilha:** [13]
 2. Comando digitado: `DUP` 	-> **Pilha:** [13, 13]
