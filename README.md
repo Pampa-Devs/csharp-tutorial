@@ -1,5 +1,3 @@
-# Repositório em construção!
-
 <p align="center">
      <img src="/imagens/csharp_logo.png" alt="C#" width="250px" />
 </p>
