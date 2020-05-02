@@ -99,17 +99,6 @@ Numero deve estar entre 0 e 999
 
 <img src="/imagens/app.png" alt="app" width="250px" />
 
-1. Comando digitado: `13` 	-> **Pilha:** [13]
-2. Comando digitado: `DUP` 	-> **Pilha:** [13, 13]
-3. Comando digitado: `4` 	-> **Pilha:** [4, 13, 13]
-4. Comando digitado: `POP` 	-> **Pilha:** [13, 13]
-5. Comando digitado: `5` 	-> **Pilha:** [5, 13, 13]
-6. Comando digitado: `DUP` 	-> **Pilha:** [5, 5, 13, 13]
-7. Comando digitado: `+` 	-> **Pilha:** [10, 13, 13]
-8. Comando digitado: `DUP` 	-> **Pilha:** [10, 13, 13, 10]
-9. Comando digitado: `+` 	-> **Pilha:** [20, 13, 13]
-10. Comando digitado: `-` 	-> **Pilha:** [7, 10]
-
 ## Mão na Massa - Tutorial
 
 ### Configuração de Ambiente
