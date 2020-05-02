@@ -7,11 +7,11 @@ namespace CSharpTutorial
     {
         public static Dictionary<string, EMaquinaComandos> ComandoNomes = new Dictionary<string, EMaquinaComandos>()
         {
-            {  "DUP", EMaquinaComandos.DUP },
-            {  "POP", EMaquinaComandos.POP },
-            {  "INV", EMaquinaComandos.INV },
-            {  "+", EMaquinaComandos.MAIS },
-            {  "-", EMaquinaComandos.MENOS },
+            { "DUP", EMaquinaComandos.DUP },
+            { "POP", EMaquinaComandos.POP },
+            { "INV", EMaquinaComandos.INV },
+            { "+", EMaquinaComandos.MAIS },
+            { "-", EMaquinaComandos.MENOS }
         };
 
         public static Dictionary<EMaquinaComandos, Comando> Comandos = new Dictionary<EMaquinaComandos, Comando>()

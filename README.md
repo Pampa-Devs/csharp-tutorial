@@ -52,6 +52,20 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 ## Mão na Massa - Problema
 
 Então pessoal, neste tutorial, faremos uma aplicação que armazena números em uma **pilha**. 
+
+Uma pilha é uma estrutura de dados do tipo **Último a entrar, Primeiro a sair** (LIFO, First In First Out em inglês). 
+
+<p align="center">
+     <img src="/imagens/pilha.png" alt="pilha" width="450px" />
+</p>
+
+Por padrão, já temos um objeto no C# que simula esse comportamento, a **Stack**.
+Este tem os seguintes comandos:
+* **Push** insere um elemento no topo da Pilha
+* **Pop** remove o elemento no topo da Pilha
+* **Peek** retorna o elemento no topo da Pilha
+* **Count** retorna o tamanho da Pilha
+
 Nossa aplicação será feita em **CLI** (Interface de Linha de Comando), mais conhecido como console. Poderemos entrar com 
 diversos comandos e para cada comando irá ser realizada uma ação.
 
@@ -63,8 +77,6 @@ diversos comandos e para cada comando irá ser realizada uma ação.
 * `INV` - **Inverte** a pilha
 * `+` - **Soma os dois últimos** itens da pilha, removendo o último
 * `-` - **Subtrai os dois últimos** itens da pilha, removendo o último
-* `PTR` - **Exibe** na tela todos os números armazenados na pilha
-* `CLS` - **Limpa** a tela do console
 
 ### Regras
 
@@ -79,29 +91,24 @@ diversos comandos e para cada comando irá ser realizada uma ação.
 
 ### Casos de Erro
 
-Qualquer situação inesperada deve exibir uma mensagem de erro na tela informando:
-
-* Os números na pilha
-* Comando que falhou
-* Data e hora da falha
+Qualquer situação inesperada deve exibir uma mensagem de erro na tela informando o que aconteceu, por exemplo:
 ```C#
-============ ERROR START
-1 5 15 17 - POP | 04/28/2020 07:04:52
-============= ERROR END
+Entre com um comando: -1
+Numero deve estar entre 0 e 999
 ```
 
 ### Exemplo da aplicação funcionando:
 
 1. Comando digitado: `13` 	-> **Pilha:** [13]
 2. Comando digitado: `DUP` 	-> **Pilha:** [13, 13]
-3. Comando digitado: `4` 	-> **Pilha:** [13, 13, 4]
+3. Comando digitado: `4` 	-> **Pilha:** [4, 13, 13]
 4. Comando digitado: `POP` 	-> **Pilha:** [13, 13]
-5. Comando digitado: `5` 	-> **Pilha:** [13, 13, 5]
-6. Comando digitado: `DUP` 	-> **Pilha:** [13, 13, 5, 5]
-7. Comando digitado: `+` 	-> **Pilha:** [13, 13, 10]
-8. Comando digitado: `DUP` 	-> **Pilha:** [13, 13, 10, 10]
-9. Comando digitado: `+` 	-> **Pilha:** [13, 13, 20]
-10. Comando digitado: `-` 	-> **Pilha:** [13, 7]
+5. Comando digitado: `5` 	-> **Pilha:** [5, 13, 13]
+6. Comando digitado: `DUP` 	-> **Pilha:** [5, 5, 13, 13]
+7. Comando digitado: `+` 	-> **Pilha:** [10, 13, 13]
+8. Comando digitado: `DUP` 	-> **Pilha:** [10, 13, 13, 10]
+9. Comando digitado: `+` 	-> **Pilha:** [20, 13, 13]
+10. Comando digitado: `-` 	-> **Pilha:** [7, 10]
 
 ## Mão na Massa - Tutorial
 
@@ -120,16 +127,17 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/8.comando-pop.md)
 09. [Implementação comando `INV`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/9.comando-inv.md)
 10. [Implementação comando `+` e `-`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/10.comando-mais-menos.md)
-12. [Implementação comando `PTR`]()
-13. [Implementação comando `CLS`]()
+11. [Executando a aplicação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/11.executar-aplicacao.md)
 
+# Autores
+* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do GoHorse Coding e Engenheiro de Software
 
-
-## Referências
+# Referências
 
 * https://docs.microsoft.com/pt-br/dotnet/csharp/
 * http://www.macoratti.net/08/08/c_bas1.htm
 * https://www.c-sharpcorner.com/UploadFile/mahesh/what-can-C-Sharp-do-for-you/
 * http://gabsferreira.com/razoes-pra-c-ser-sua-primeira-linguagem-de-programacao/
 * https://gameprogrammingpatterns.com/
+* https://docs.microsoft.com/pt-br/visualstudio/test/unit-test-basics?view=vs-2019
 

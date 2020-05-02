@@ -72,5 +72,16 @@ namespace CSharpTutorial
         {
             return _pilha.Count;
         }
+
+        public void MostrarPilha()
+        {
+            Console.Write("Pilha: [ ");
+            foreach(var numero in _pilha)
+            {
+                Console.Write(numero + " ");
+            }
+
+            Console.Write("]\n");
+        }
     }
 }
