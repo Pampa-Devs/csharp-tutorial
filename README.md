@@ -90,10 +90,7 @@ diversos comandos e para cada comando irá ser realizada uma ação.
 ### Casos de Erro
 
 Qualquer situação inesperada deve exibir uma mensagem de erro na tela informando o que aconteceu, por exemplo:
-```C#
-Entre com um comando: -1
-Numero deve estar entre 0 e 999
-```
+<img src="/imagens/erro.png" alt="erro" width="450px" />
 
 ### Exemplo da aplicação funcionando:
 
