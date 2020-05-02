@@ -98,7 +98,7 @@ Numero deve estar entre 0 e 999
 ### Exemplo da aplicação funcionando:
 
 <p align="center">
-	<img src="/imagens/app.png" alt="app" width="450px" />
+	<img src="/imagens/app.png" alt="app" width="250px" />
 </p>
 
 1. Comando digitado: `13` 	-> **Pilha:** [13]
