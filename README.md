@@ -97,9 +97,7 @@ Numero deve estar entre 0 e 999
 
 ### Exemplo da aplicação funcionando:
 
-<p align="center">
-	<img src="/imagens/app.png" alt="app" width="250px" />
-</p>
+<img src="/imagens/app.png" alt="app" width="250px" />
 
 1. Comando digitado: `13` 	-> **Pilha:** [13]
 2. Comando digitado: `DUP` 	-> **Pilha:** [13, 13]
