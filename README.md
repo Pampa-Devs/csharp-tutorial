@@ -116,7 +116,7 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 11. [Executando a aplicação](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/11.executar-aplicacao.md)
 
 # Autores
-* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do GoHorse Coding e Engenheiro de Software
+* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do PampaDevs e Engenheiro de Software
 
 # Referências
 
