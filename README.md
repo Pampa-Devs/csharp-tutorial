@@ -7,7 +7,7 @@
 
 ## O que é C#?
 
-C# é uma linguagem de programação, multiparadigma, de [tipagem forte](https://github.com/Go-Horse-Coding/programming-concepts-tutorial/blob/master/Concepts/typing.md)
+C# é uma linguagem de programação, multiparadigma, de [tipagem forte](https://github.com/Pampa-Devs/programming-concepts-tutorial/blob/master/Concepts/typing.md)
 desenvolvida pela **Microsoft** como parte da **plataforma .NET**. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens
 de programação, como Object Pascal e, principalmente, Java.
 
@@ -100,20 +100,20 @@ Qualquer situação inesperada deve exibir uma mensagem de erro na tela informan
 
 ### Configuração de Ambiente
 
-01. [Instalando e configurando o **Visual Studio**](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/ambiente/1.instalando_visual_studio.md)
+01. [Instalando e configurando o **Visual Studio**](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/ambiente/1.instalando_visual_studio.md)
 
 ### Desenvolvimento
 
-02. [Criando o Projeto](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/2.criar-projeto.md)
-03. [Desenvolvimento Dirigido a Testes](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/3.desenvolvimento-dirigido-a-testes.md)
-04. [Implementação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/4.implementacao.md)
-05. [Adicionando números a pilha](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/5.adicionando-numeros-na-pilha.md)
-06. [Comandos](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/6.comandos.md)
-07. [Implementação comando `DUP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/7.comando-dup.md)
-08. [Implementação comando `POP`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/8.comando-pop.md)
-09. [Implementação comando `INV`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/9.comando-inv.md)
-10. [Implementação comando `+` e `-`](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/10.comando-mais-menos.md)
-11. [Executando a aplicação](https://github.com/Go-Horse-Coding/csharp-tutorial/blob/master/modulos/tutorial/11.executar-aplicacao.md)
+02. [Criando o Projeto](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/2.criar-projeto.md)
+03. [Desenvolvimento Dirigido a Testes](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/3.desenvolvimento-dirigido-a-testes.md)
+04. [Implementação](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/4.implementacao.md)
+05. [Adicionando números a pilha](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/5.adicionando-numeros-na-pilha.md)
+06. [Comandos](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/6.comandos.md)
+07. [Implementação comando `DUP`](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/7.comando-dup.md)
+08. [Implementação comando `POP`](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/8.comando-pop.md)
+09. [Implementação comando `INV`](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/9.comando-inv.md)
+10. [Implementação comando `+` e `-`](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/10.comando-mais-menos.md)
+11. [Executando a aplicação](https://github.com/Pampa-Devs/csharp-tutorial/blob/master/modulos/tutorial/11.executar-aplicacao.md)
 
 # Autores
 * [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do GoHorse Coding e Engenheiro de Software
