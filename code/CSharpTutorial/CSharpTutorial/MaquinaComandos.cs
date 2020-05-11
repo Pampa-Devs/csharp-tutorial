@@ -11,7 +11,8 @@ namespace CSharpTutorial
             { "POP", EMaquinaComandos.POP },
             { "INV", EMaquinaComandos.INV },
             { "+", EMaquinaComandos.MAIS },
-            { "-", EMaquinaComandos.MENOS }
+            { "-", EMaquinaComandos.MENOS },
+            { "CLS", EMaquinaComandos.CLS }
         };
 
         public static Dictionary<EMaquinaComandos, Comando> Comandos = new Dictionary<EMaquinaComandos, Comando>()
@@ -21,6 +22,7 @@ namespace CSharpTutorial
             {  EMaquinaComandos.INV, new ComandoInverter() },
             {  EMaquinaComandos.MAIS, new ComandoMais() },
             {  EMaquinaComandos.MENOS, new ComandoMenos() },
+            {  EMaquinaComandos.CLS, new ComandoClear() }
         };
     }
 }
