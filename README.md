@@ -2,7 +2,7 @@
      <img src="/imagens/csharp_logo.png" alt="C#" width="250px" />
 </p>
 
-# .NET - Introdução ao C# 
+# .NET - Aplicação Console 
 *Este artigo foi escrito em abril de 2020*
 
 ## O que é C#?
